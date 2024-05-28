@@ -62,7 +62,7 @@ const MainContent = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/new-website-host">
       <MainContent />
     </Router>
   );
